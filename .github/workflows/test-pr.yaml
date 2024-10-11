@@ -13,6 +13,7 @@ jobs:
         with:
           filters: |
             color: ./**/color/**
+            deno: ./**/deno/**
             hello: ./**/hello/**
 
   test:
