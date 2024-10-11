@@ -12,9 +12,7 @@ jobs:
         id: filter
         with:
           filters: |
-            color: ./**/color/**
             deno: ./**/deno/**
-            hello: ./**/hello/**
 
   test:
     needs: [detect-changes]
